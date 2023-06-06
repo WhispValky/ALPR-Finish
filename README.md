@@ -35,11 +35,12 @@ For MAC
 ```
 source env/bin/activate
 ```
-For Windows
 
+For Windows
 ```
 myenv\Scripts\activate
 ```
+
 Install PIP:
 
 For MAC
@@ -48,7 +49,7 @@ python3 -m pip install --upgrade pip
 ```
 For Windows
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 
 Install all imports using requirements.txt
