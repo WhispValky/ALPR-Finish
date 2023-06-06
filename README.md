@@ -41,13 +41,25 @@ For Windows
 myenv\Scripts\activate
 ```
 Install PIP:
+
+For MAC
+```
+python3 -m pip install --upgrade pip
+```
+For Windows
 ```
 python3 -m pip install --upgrade pip
 ```
 
 Install all imports using requirements.txt
+
+For Mac
 ```
 pip3 install -r requirements.txt 
+```
+For Windows
+```
+pip install -r requirements.txt 
 ```
 
 Before run the server create an account
