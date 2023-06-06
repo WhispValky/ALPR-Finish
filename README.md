@@ -9,7 +9,7 @@ Open terminal:
 
 Clone repository in your machine:
 ```
-git clone git@github.com:IsfendiyarBerkanKasapoglu/ALPR_APP.git
+git clone https://github.com/WhispValky/ALPR-Finish.git
 ```
 
 Change directory to the location:
