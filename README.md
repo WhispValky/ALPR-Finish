@@ -18,8 +18,15 @@ cd ALPR-Finish
 ```
 
 Create a virtual environment:
+
+For MAC
+
 ``` 
 python3 -m venv env
+```
+For Windows
+``` 
+python -m venv env
 ```
 
 Start the virtual environment:
