@@ -14,7 +14,7 @@ git clone https://github.com/WhispValky/ALPR-Finish.git
 
 Change directory to the location:
 ```
-cd ALPR_APP
+cd ALPR-Finish
 ```
 
 Create a virtual environment:
