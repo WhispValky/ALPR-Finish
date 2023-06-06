@@ -1,0 +1,41 @@
+{% extends "../layout.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<body>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td>
+                    <div class="sol-panel table-responsive ">
+                        <a href="CarList">
+                            <img class="sol_panel_foto" src="/static/images/16-163290_car-search-icon-png-clipart-car-search-icon-png.png-removebg-preview.png" alt="Sol Panel Fotoğrafı">
+                            <span>Search</span>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="orta-panel" >
+                        <a href="https://192.168.3.240">
+                            <img class="orta_panel_foto" src="/static/images/camera_search.png" alt="Sağ Panel Fotoğrafı">
+                            <span>Camera</span>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="sag-panel table-responsive ">
+                        <a href="register">
+                            <img class="sag_panel_foto" src="/static/images/istockphoto-1160053576-170667a-removebg-preview.png" alt="Sağ Panel Fotoğrafı">
+                            <span>Register</span>
+                        </a>
+                    </div>
+                </td>
+                
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+{% endblock %}

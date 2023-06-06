@@ -1,0 +1,59 @@
+{% extends "../layout.html" %}
+{% block content %}
+<div lass="content-section">
+    <div class="row mx-auto justify-content-center">
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Car Plate</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fa fa-key"></i></span>
+                </div>
+                <h3 class="text-center"> {{ alprapp.car_plate}} </h3>
+            </div>
+        </div>
+ 
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Car Name</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fa fa-car"></i></span>
+                </div>
+                <h3 class="text-center"> {{ alprapp.car_name }} </h3>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Car Owner</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fa fa-user"></i></span>
+                </div>
+                <h3 class="text-center"> {{ alprapp.car_owner }} </h3>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Car Color</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fa fa-brush"></i></span>
+                </div>
+                <h3 class="text-center"> {{ alprapp.car_color }} </h3>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Registered Date</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fas fa-calendar-alt"></i></span>
+                </div>
+                <h3 class="text-center"> {{ alprapp.published_date }} </h3>
+            </div>
+        </div>
+        <a class="btn btn-outline-success btn-sm mb-3" href = "{% url 'update' alprapp.id %}" >Update</a>
+        <a class="btn btn-danger btn-sm" href = "{% url 'delete' alprapp.id %}" >Delete</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,144 @@
+/*-------post_list.html css-------*/
+
+.background {
+    position: relative;
+    background-image: url('/static/images/arabaaraba.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*-------HomePage.html css-------*/
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sol_panel_foto {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sag_panel_foto {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sol-panel span {
+    position: absolute;
+    bottom: -30px; 
+    margin-left: auto;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius: 15px;
+
+}
+
+.orta_panel_foto {
+    display: block;
+    width: 90%;
+    max-width: 480px;
+    margin-right: auto;
+    margin-left: 70px;
+    
+}
+
+.orta-panel span {
+    position: absolute;
+    bottom: -30px; 
+    margin-left: auto;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius: 15px;
+
+}
+
+.sag-panel span {
+    position: absolute;
+    bottom: -30px; 
+    margin-left: auto;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius: 15px;
+}
+
+td {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+body {
+    position: relative;
+    background-image: url('/static/images/sayfa2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*-------register.html css-------*/
+
+.content-section {
+    background: white;
+    margin: 40px;
+    padding: 1.5rem 1.5rem;
+    border-radius: 10px;
+}
+
+/*-------third.html css-------*/
+
+#box {
+    max-width: 300px;
+    position: relative;
+    }
+    #box .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 20px;
+    color:black;
+    }
+    #search {
+    width: 300px;
+    box-sizing: border-box;
+    border:  black;
+    border-radius: 4px;
+    font-size:18px;
+    padding: 12px 20px 12px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+
+.search-bar{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
